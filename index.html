@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Integration for Quote Generator</title>
+    <title>Quote Generator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>GitHub Integration</h1>
-            <p class="subtitle">Save your favorite quotes to GitHub</p>
-        </header>
         
         <div class="quote-container">
             <i class="fas fa-quote-left"></i>
@@ -28,43 +24,6 @@
                 <i class="fas fa-copy"></i>&nbsp; Copy Quote
             </button>
         </div>
-        
-        <div class="github-section">
-            <h2>Save Quote to GitHub</h2>
-            <div class="github-form">
-                <div class="form-group">
-                    <label for="github-token">GitHub Personal Access Token</label>
-                    <input type="password" id="github-token" placeholder="ghp_xxxxxxxxxxxxxxxx">
-                    <p class="help-text">Create a token with repo permissions in GitHub Settings</p>
-                </div>
-                <div class="form-group">
-                    <label for="repo-name">Repository Name</label>
-                    <input type="text" id="repo-name" placeholder="my-quotes">
-                </div>
-                <div class="form-group">
-                    <label for="file-name">File Name</label>
-                    <input type="text" id="file-name" placeholder="favorite-quotes.txt">
-                </div>
-                <div class="form-group">
-                    <label for="commit-message">Commit Message</label>
-                    <input type="text" id="commit-message" placeholder="Added new favorite quote">
-                </div>
-                <button class="github-submit" id="github-submit">
-                    <i class="fab fa-github"></i> Push to GitHub
-                </button>
-            </div>
-            <div id="github-status" class="status-message"></div>
-        </div>
-        
-        <div class="instructions">
-            <h3>How to set up:</h3>
-            <ol>
-                <li>Create a personal access token in GitHub with repo permissions</li>
-                <li>Enter your token, repository name, and file name above</li>
-                <li>Generate a quote and push it to your GitHub repository</li>
-            </ol>
-        </div>
-    </div>
 
     <div class="toast" id="toast"></div>
 
