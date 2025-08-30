@@ -2,6 +2,11 @@
 
  This is a web application that fetches random quotes from an API.
 
+ 
+## Live Demo
+
+You can view a live version of this tool at [(https://kanaimandal2002.github.io/random-quote/)]
+
 # Features
 
 - Random Quote Generation: Fetches inspirational quotes from the Quotable API
