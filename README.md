@@ -1,6 +1,6 @@
 # random-quote
 
- This is a web application that fetches random quotes from an API.
+ This is a web application that fetches random quotes from Quotable API.
 
  
 ## Live Demo
